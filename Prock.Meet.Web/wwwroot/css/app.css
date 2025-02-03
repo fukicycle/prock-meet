@@ -1,5 +1,30 @@
-h1:focus {
-    outline: none;
+:root {
+    --primary-color: #F3AF56;
+    --white: #F9EEE1;
+    --black: #4D473C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #app {
+    height: 100%;
+    width: 100%;
+    background-color: var(--black);
+}
+
+.page-wrapper {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.title {
+    font-size: 48px;
+    color: var(--primary-color);
 }
 
 #blazor-error-ui {
